@@ -37,6 +37,5 @@ if __name__ == "__main__":
     permuted_block = initial_permutation(input_block)
     print("After Initial Permutation: ", permuted_block)
 
-    # Perform final permutation
     final_permuted_block = final_permutation(permuted_block)
     print("After Final Permutation:   ", final_permuted_block)
